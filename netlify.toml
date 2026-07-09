@@ -36,8 +36,7 @@
 #   status = 301
 #   force = true
 
-# SPA fallback
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# NOTE: No catch-all "/* -> /index.html 200" redirect.
+# This is a single static page, not an SPA. That rewrite intercepted the
+# Netlify Forms POST (and the /thank-you.html GET), breaking form detection
+# and submissions. Netlify serves the static files directly instead.
