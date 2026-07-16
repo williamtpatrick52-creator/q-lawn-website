@@ -95,7 +95,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#141414;backdrop-
 
 /* GALLERY */
 .gallery{padding:80px 6%;background:var(--white)}
-.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:260px 260px;gap:6px;margin-top:36px}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:260px 260px 260px;gap:6px;margin-top:36px}
 .gi{overflow:hidden;border-radius:2px}
 .gi img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
 .gi:hover img{transform:scale(1.04)}
