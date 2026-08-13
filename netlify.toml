@@ -41,13 +41,136 @@
 # Netlify Forms POST (and the /thank-you.html GET), breaking form detection
 # and submissions. Netlify serves the static files directly instead.
 
-# Legacy URL redirects (old standalone pages -> homepage sections)
+# Legacy URL redirects (old standalone pages -> current homepage sections). 301 permanent.
+# All six services live in the single #services section (no per-service anchors),
+# so service-specific legacy paths point there.
+
+# --- Contact / estimate -> #contact ---
 [[redirects]]
   from = "/contact-us"
   to = "/#contact"
   status = 301
 
 [[redirects]]
+  from = "/contact"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/free-estimate"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/estimate"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/quote"
+  to = "/#contact"
+  status = 301
+
+# --- Work / portfolio -> #portfolio ---
+[[redirects]]
   from = "/portfolio"
   to = "/#portfolio"
+  status = 301
+
+[[redirects]]
+  from = "/gallery"
+  to = "/#portfolio"
+  status = 301
+
+# --- Services -> #services ---
+[[redirects]]
+  from = "/services"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/snow-removal"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/snow-plowing"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/landscaping"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/landscape-design"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/lawn-care"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/retaining-walls"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/paver-patios"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/patios"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/sprinkler-repair"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/sprinklers"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/irrigation"
+  to = "/#services"
+  status = 301
+
+# --- Trees (dedicated nursery section) -> #trees ---
+[[redirects]]
+  from = "/tree-service"
+  to = "/#trees"
+  status = 301
+
+[[redirects]]
+  from = "/tree-trimming"
+  to = "/#trees"
+  status = 301
+
+[[redirects]]
+  from = "/trees"
+  to = "/#trees"
+  status = 301
+
+[[redirects]]
+  from = "/tree-nursery"
+  to = "/#trees"
+  status = 301
+
+# --- Reviews -> #reviews ---
+[[redirects]]
+  from = "/reviews"
+  to = "/#reviews"
+  status = 301
+
+[[redirects]]
+  from = "/testimonials"
+  to = "/#reviews"
   status = 301
