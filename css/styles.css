@@ -71,7 +71,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#141414;backdrop-
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border)}
 .svc{padding:32px 28px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);transition:background .2s}
 .svc:nth-child(3n){border-right:none}
-.svc:nth-child(4),.svc:nth-child(5),.svc:nth-child(6){border-bottom:none}
+.svc:last-child{border-bottom:none}
 .svc:hover{background:var(--off)}
 .svc-icon{font-size:24px;margin-bottom:14px}
 .svc h3{font-family:var(--display);font-size:20px;color:var(--ink);font-weight:400;font-style:italic;margin-bottom:8px}

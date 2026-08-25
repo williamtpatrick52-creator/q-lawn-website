@@ -54,7 +54,7 @@ confident and grounded, never gimmicky.
 
 **Positioning pillars:**
 - 13+ years of local track record.
-- Full-service: design, hardscape, lawn care, irrigation, snow removal, **and**
+- Full-service: design, hardscape, earthwork, lawn care, irrigation, snow removal, **and**
   an in-house tree nursery (a differentiator competitors lack).
 - Honest and responsive — "free estimates", "no pressure", "respond within 24
   hours".

@@ -143,6 +143,16 @@
   to = "/#services"
   status = 301
 
+[[redirects]]
+  from = "/earthwork"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/earth-work"
+  to = "/#services"
+  status = 301
+
 # --- Trees (dedicated nursery section) -> #trees ---
 [[redirects]]
   from = "/tree-service"
