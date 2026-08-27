@@ -114,11 +114,6 @@
   status = 301
 
 [[redirects]]
-  from = "/retaining-walls"
-  to = "/#services"
-  status = 301
-
-[[redirects]]
   from = "/paver-patios"
   to = "/#services"
   status = 301
@@ -144,13 +139,29 @@
   status = 301
 
 [[redirects]]
-  from = "/earthwork"
-  to = "/#services"
+  from = "/earth-work"
+  to = "/earthwork"
   status = 301
 
 [[redirects]]
-  from = "/earth-work"
-  to = "/#services"
+  from = "/excavation"
+  to = "/earthwork"
+  status = 301
+
+[[redirects]]
+  from = "/grading"
+  to = "/earthwork"
+  status = 301
+
+# --- Masonry & Hardscaping -> /masonry page ---
+[[redirects]]
+  from = "/hardscaping"
+  to = "/masonry"
+  status = 301
+
+[[redirects]]
+  from = "/hardscape"
+  to = "/masonry"
   status = 301
 
 # --- Trees (dedicated nursery section) -> #trees ---

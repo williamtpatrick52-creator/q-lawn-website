@@ -54,8 +54,16 @@ confident and grounded, never gimmicky.
 
 **Positioning pillars:**
 - 13+ years of local track record.
-- Full-service: design, hardscape, earthwork, lawn care, irrigation, snow removal, **and**
-  an in-house tree nursery (a differentiator competitors lack).
+- Full-service: landscape design, masonry & hardscaping, retaining walls, paver
+  patios, earthwork/excavation/grading, sprinkler systems, lawn care, snow
+  removal, **and** an in-house tree nursery (a differentiator competitors lack).
+- Masonry scope is **landscape/hardscape masonry only** — retaining walls, seat
+  walls, fire pits, steps, pavers, and block/natural-stone outdoor work. Do NOT
+  claim structural masonry (chimneys, brick facades, foundations) without owner
+  confirmation.
+- **Dedicated SEO service pages** exist at `/retaining-walls`, `/masonry`, and
+  `/earthwork` (crawlable landing pages linking back to the homepage `#contact`
+  form). Their legacy `?→ /#services` redirects were repointed to the real pages.
 - Honest and responsive — "free estimates", "no pressure", "respond within 24
   hours".
 
