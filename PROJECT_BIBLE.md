@@ -31,7 +31,7 @@ Key business facts (keep accurate everywhere they appear):
 - **Location / service area:** Cheyenne & surrounding Wyoming communities
 - **Established:** 2012 ("13+ years", "since 2012")
 - **Hours:** Mon–Fri 7am–4pm · Sat by appointment
-- **Reputation:** 4.7★ average across 89 Google reviews
+- **Reputation:** 4.7★ average across 102 Google reviews
 - **Facebook:** https://www.facebook.com/111293527158352
 - **Canonical domain:** https://qlawnlandscaping.com/
 
@@ -389,7 +389,7 @@ section when resolved.
 3. **Reviews / testimonials are illustrative.** The three quotes in `#reviews`
    (Sarah M., Mark T., Jennifer K.) read as samples. Confirm these are real and
    permitted, or replace with genuine Google reviews before relying on them.
-   The "4.7★ / 89 reviews" figures should be kept current with the real Google
+   The "4.7★ / 102 reviews" figures should be kept current with the real Google
    profile.
 4. **No structured data / sitemap / robots.txt.** Local-SEO best practices
    (`LocalBusiness` JSON-LD, `sitemap.xml`, `robots.txt`) are not yet in place.
