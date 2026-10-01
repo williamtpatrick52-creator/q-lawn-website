@@ -99,7 +99,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:#141414;backdrop-
 
 /* GALLERY */
 .gallery{padding:80px 6%;background:var(--white)}
-.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:260px 260px 260px 260px;gap:6px;margin-top:36px}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:360px 360px 360px 360px;gap:6px;margin-top:36px}
 .gi{overflow:hidden;border-radius:2px}
 .gi img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
 .gi:hover img{transform:scale(1.04)}
@@ -170,7 +170,7 @@ footer{border-top:1px solid var(--border);padding:28px 6%;display:flex;align-ite
   .svc:nth-child(3n){border-right:1px solid var(--border)}
   .trees-inner{grid-template-columns:1fr}
   .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
-  .gi.tall{grid-row:span 1}.gi.tall img{height:200px}
+  .gi.tall{grid-row:span 1}.gi.tall img{height:260px}
   .offers-grid{grid-template-columns:1fr 1fr}
   .rev-grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
@@ -185,7 +185,7 @@ footer{border-top:1px solid var(--border);padding:28px 6%;display:flex;align-ite
   .stats{grid-template-columns:1fr 1fr}.svc-grid{grid-template-columns:1fr}
   .svc{border-right:none !important}.svc:nth-child(7){border-bottom:1px solid var(--border)}.trees-inner{grid-template-columns:1fr}
   .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
-  .gi.tall{grid-row:span 1}.gi.tall img{height:220px}
+  .gi.tall{grid-row:span 1}.gi.tall img{height:280px}
   .offers-grid{grid-template-columns:1fr}.offers-grid .oc{border-right:none}
   .rev-grid{grid-template-columns:1fr}.rev{border-right:none}
   .contact-grid{grid-template-columns:1fr}.fg-row{grid-template-columns:1fr}
@@ -204,7 +204,7 @@ footer{border-top:1px solid var(--border);padding:28px 6%;display:flex;align-ite
   .svc-grid{grid-template-columns:1fr}
   .offers-grid{grid-template-columns:1fr}
   .gallery-grid{grid-template-columns:1fr}
-  .gi.tall img{height:180px}
+  .gi.tall img{height:230px}
   .masonry-grid{columns:1}
   .cf{padding:24px 20px}
   .cta h2{font-size:clamp(28px,8vw,48px)}
